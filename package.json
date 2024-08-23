@@ -1,0 +1,27 @@
+{
+  "name": "canvas.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "crypto": "^1.0.1",
+    "crypto-browserify": "3.12.0",
+    "crypto-js": "^4.2.0",
+    "crypto-random-string": "^3.3.0",
+    "express": "^4.19.2",
+    "glob": "^11.0.0",
+    "lru-cache": "^11.0.0",
+    "rimraf": "^6.0.1",
+    "socket.io": "^4.7.5",
+    "stream": "^0.0.2",
+    "uuid": "^10.0.0"
+  }
+}
